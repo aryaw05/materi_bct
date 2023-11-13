@@ -10,10 +10,15 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- Navbar  -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-4">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Navbar</a>
         <button
@@ -75,8 +80,183 @@
 
     <!-- end Navbar -->
 
+    <!-- Carousel -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide px-5 mb-5"
+      style="height: 500px; overflow: hidden"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="src/lala-miklos-qxstzQ__HMk-unsplash.jpg"
+            class="d-block w-50"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="src/vital-sinkevich-k2iRpPpbKFY-unsplash.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="src/matthew-hamilton-3RlGBpFeoQg-unsplash.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- end Carousel -->
+
+    <!-- main -->
+    <section class="container-fluid px-5 overflow-hidden mb-5">
+      <div class="row">
+        <div class="col-lg-9 col-md-9">
+          <div>
+            <img
+              src="src/lala-miklos-qxstzQ__HMk-unsplash.jpg"
+              alt=""
+              class="h-100 img-fluid"
+            />
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
+              mollitia sapiente magnam quas laboriosam voluptas fugiat expedita
+              voluptatum ullam placeat consequuntur pariatur doloremque in, fuga
+              nam aut recusandae commodi amet ipsam voluptate! Explicabo
+              officiis dolorum iusto vero. Fugit repellat ipsum reiciendis fuga
+              impedit iusto id nobis excepturi enim quaerat magnam, dolores
+              porro ab eius culpa possimus facere qui! Quae et assumenda tenetur
+              molestiae dolor, quisquam molestias impedit eaque omnis
+              repudiandae laboriosam maxime doloremque cum distinctio voluptas
+              suscipit obcaecati sunt error deleniti eum explicabo voluptates!
+              Esse praesentium tenetur minus, voluptate quis velit ea
+              consequuntur voluptas pariatur temporibus eos fugiat eius numquam?
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3">
+          <div class="gap-2 d-flex w-fit carousel-menu overflow-x-scroll">
+            <img
+              src="src/vital-sinkevich-k2iRpPpbKFY-unsplash.jpg"
+              alt=""
+              class="w-100 mb-2"
+            />
+            <img
+              src="src/vital-sinkevich-k2iRpPpbKFY-unsplash.jpg"
+              alt=""
+              class="w-100 mb-2"
+            />
+            <img
+              src="src/vital-sinkevich-k2iRpPpbKFY-unsplash.jpg"
+              alt=""
+              class="w-100 mb-2"
+            />
+            <img
+              src="src/vital-sinkevich-k2iRpPpbKFY-unsplash.jpg"
+              alt=""
+              class="w-100 mb-2"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Footer -->
-    
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 footer-contact">
+              <h3>BCT Web Development</h3>
+              <p>
+                A108 Adam Street <br />
+                New York, NY 535022<br />
+                United States <br /><br />
+                <strong>Phone:</strong> +1 5589 55488 55<br />
+                <strong>Email:</strong> info@example.com<br />
+              </p>
+            </div>
+
+            <div class="col-lg-6 col-md-6 footer-newsletter">
+              <h4>Join Our Newsletter</h4>
+              <p>
+                Tamen quem nulla quae legam multos aute sint culpa legam noster
+                magna
+              </p>
+              <form action="" method="post">
+                <input type="email" name="email" /><input
+                  type="submit"
+                  value="Subscribe"
+                />
+              </form>
+              <div class="icon d-flex gap-3 mt-3">
+                <h3><i class="bi bi-instagram"></i></h3>
+                <h3><i class="bi bi-facebook"></i></h3>
+                <h3><i class="bi bi-twitter-x"></i></h3>
+                <h3><i class="bi bi-github"></i></h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="copyright-wrap d-md-flex py-4">
+          <div class="me-md-auto text-center text-md-start">
+            <!-- <div class="copyright">
+              &copy; Copyright <strong><span>Techie</span></strong
+              >. All Rights Reserved
+            </div> -->
+            <!-- <div class="credits">
+              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
