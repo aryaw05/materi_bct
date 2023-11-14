@@ -110,25 +110,13 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img
-            src="src/lala-miklos-qxstzQ__HMk-unsplash.jpg"
-            class="d-block w-50"
-            alt="..."
-          />
+          <img src="src/1.jpg" class="d-block w-100" alt="..." />
         </div>
         <div class="carousel-item">
-          <img
-            src="src/vital-sinkevich-k2iRpPpbKFY-unsplash.jpg"
-            class="d-block w-100"
-            alt="..."
-          />
+          <img src="src/2.jpg" class="d-block w-100" alt="..." />
         </div>
         <div class="carousel-item">
-          <img
-            src="src/matthew-hamilton-3RlGBpFeoQg-unsplash.jpg"
-            class="d-block w-100"
-            alt="..."
-          />
+          <img src="src/3.jpg" class="d-block w-100" alt="..." />
         </div>
       </div>
       <button
@@ -158,11 +146,13 @@
         <div class="col-lg-9 col-md-9">
           <div>
             <img
-              src="src/lala-miklos-qxstzQ__HMk-unsplash.jpg"
+              src="src/1.jpg"
               alt=""
               class="h-100 img-fluid"
+              id="main-section-picture"
             />
-            <p>
+            <h1 id="header-text">Judul 1</h1>
+            <p id="main-text">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id
               mollitia sapiente magnam quas laboriosam voluptas fugiat expedita
               voluptatum ullam placeat consequuntur pariatur doloremque in, fuga
@@ -181,24 +171,32 @@
         <div class="col-lg-3 col-md-3">
           <div class="gap-2 d-flex w-fit carousel-menu overflow-x-scroll">
             <img
-              src="src/vital-sinkevich-k2iRpPpbKFY-unsplash.jpg"
+              src="src/1.jpg"
               alt=""
               class="w-100 mb-2"
+              id="side-image1"
+              onclick="changeImage1()"
             />
             <img
-              src="src/vital-sinkevich-k2iRpPpbKFY-unsplash.jpg"
+              src="src/2.jpg"
               alt=""
               class="w-100 mb-2"
+              id="side-image2"
+              onclick="changeImage2()"
             />
             <img
-              src="src/vital-sinkevich-k2iRpPpbKFY-unsplash.jpg"
+              src="src/3.jpg"
               alt=""
               class="w-100 mb-2"
+              id="side-image3"
+              onclick="changeImage3()"
             />
             <img
-              src="src/vital-sinkevich-k2iRpPpbKFY-unsplash.jpg"
+              src="src/4.jpg"
               alt=""
               class="w-100 mb-2"
+              id="side-image4"
+              onclick="changeImage4()"
             />
           </div>
         </div>
@@ -262,5 +260,6 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
